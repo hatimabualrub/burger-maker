@@ -1,5 +1,4 @@
 {
-  "homepage": "http://hatimabualrub.github.io/myburger",
   "name": "react-complete-guide",
   "version": "0.1.0",
   "private": true,
@@ -50,8 +49,6 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
@@ -99,9 +96,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
-  },
   "author": "",
   "license": "ISC"
 }
